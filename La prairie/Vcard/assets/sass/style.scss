@@ -1,0 +1,45 @@
+body { 
+    background-image:url('https://cdn.pixabay.com/photo/2016/11/29/11/39/computer-1869236_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    .container{
+        background-color:#D1D1D1;
+        color:black;
+        margin-top: 150px;
+        margin-left:230px;
+        margin-right:230px;
+        border: 2px solid yellow;
+        #name{
+            border: 2px solid blue;
+            display:inline-block;
+            width: 100%;
+            h1{
+                font-weight: bolder;
+                font-size:60px;
+            }
+            .grade{
+                font-size:20px;
+            }
+        }
+        
+        #descri{
+            border: 2px solid pink;
+            float:right;
+        }
+    }
+    img {
+        display:inline-block;
+        transform: rotate(270deg);
+        width: 250px;
+        height: 190px;
+    }
+    .contener {
+        background-color:#D1D1D1;
+        color:black;
+        margin-top: 150px;
+        margin-left:230px;
+        margin-right:230px;
+        border: 2px solid yellow;
+    }
+}
