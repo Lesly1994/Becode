@@ -1,4 +1,2 @@
+# La prairie
 
-# Vcard
-# starting-web-developpment
-# learning-sass
