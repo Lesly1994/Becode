@@ -1,0 +1,118 @@
+/*fond de la page*/
+html, 
+body{
+  margin:0;
+  background-color: black;
+    
+}
+/*appartition de la phrase de départ*/
+.a-long-time-ago{
+    position: absolute;
+    top:250px;
+    left:250px;
+    z-index: 1;
+    animation: a-long-time-ago 6s ease-out 1s;
+    color: rgb(75, 213, 238);
+    font-weight: 500;
+    font-size:80px;
+    opacity:0;
+  }
+  /*la keyframes pour l'introduction*/
+@keyframes a-long-time-ago{
+  0% { 
+      opacity: 0; 
+      transform: scale(1.5) translateY(-0.75em);
+}
+  20% { 
+      opacity: 1;
+    }
+  90% { 
+      opacity: 1;
+      transform: scale(1);
+    }
+  100% { 
+      opacity: 0;
+      transform: translateZ(-1000em);
+    }
+  }
+    /*définir l'animation et masquer le logo*/
+.logo {    
+    position: absolute;
+    top: 250px;
+    left: 800px;
+    z-index: 1;
+    margin: auto;
+    animation: logo 9s ease-out 7s;
+    opacity:0;
+    }
+.logo svg{
+    width:inherit;
+}
+  /* Réduit le logo et le maintient centré */
+@keyframes logo {
+0% {
+    width: 288px;        
+    transform: scale(2.75);
+    opacity: 1;
+}
+60% {
+    opacity: 1;
+    width: 288px;      
+}
+100% {
+    opacity: 0;
+    transform: scale(0.1);
+    width: 288px;        
+}
+}
+/*couleur de la police*/
+
+/* Définissez la police, penchez le tableau, positionnez-le */
+.crawl{
+    color:#FFFF82;
+    font-family:sans-serif;
+    transform:perspective(300px) rotateX(25deg);
+    transform-origin:50% 100%;
+    text-align:justify;
+    position:absolute;
+    margin-left:-9em;
+    font-weight: bold;
+    overflow: hidden;
+    font-size: 450%;
+    height: 50em;
+    width: 18em;
+    bottom: 0;
+    left: 50%;
+}
+.crawl:after{
+    position: absolute;
+    content: ' ';
+    bottom: 60%;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+/* Définir l'animation de défilement et la positionner */
+.texte{
+    animation: scroll 100s linear 16s;
+    position: absolute;
+    top: 100%
+}
+#title, #subtitle{
+    text-align:center;
+}
+
+@keyframes scroll {
+    0% {
+        top: 100%;
+    }
+    100% {
+        top: -170%;
+    }
+}
+img {
+    width:100%;
+}
+p{
+  font-family:'Poller One', cursive; 
+}
