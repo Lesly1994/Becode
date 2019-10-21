@@ -1,0 +1,120 @@
+/*style header*/
+header{
+  background-color:#303030;
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+  margin-left:-40px;
+  margin-right:-40px;
+  margin-top:-40px;
+  border-radius:10px;  
+}
+body{
+  margin:auto;
+  color: #000;
+}
+/*style du menu*/
+.menu{
+  overflow: hidden;
+}
+/*style de la barre de navigation*/
+.menu a{
+  float: left;
+  display: block;
+  color:#fff;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: underline;
+}
+/*changement de couleur au survole*/
+.menu a:hover{
+  background-color:#ffffff;
+  color: black;
+  height:auto;
+  border-radius: 20px;
+}
+/*modification section info */
+#info{
+  display:inline-block;
+  text-align:left;
+  margin:auto;
+}
+/*modifier les sections*/
+.section-gauche{
+  float:left;
+  font-weight: bold;
+  font-size: 15px;
+  
+}
+.section-droite{
+  margin-left:250px;
+  margin-top:37px;
+}
+/*modifie les titres des sections*/
+h3{
+  font-size: 25px;
+  margin-left:150px;
+  color:black;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+/*modification de la première section*/
+#formation{
+  padding-bottom: 30px;
+  padding-top: 20px;
+ 
+}
+/*modification de la deuxième section*/
+#autres-expériences-professionnelles{
+  padding-bottom:30px;
+  padding-top:20px;
+}
+/*modification de la troisième section*/
+#langue-et-compétence{
+  padding-bottom:30px;
+  padding-top:20px;
+}
+/*modification de la quatrième section*/
+#autres-experiences{
+  padding-bottom:30px;
+  padding:20px;
+  margin-left:-20px;
+}
+/*modification de la dernière section*/
+#centre-dinteret{
+  padding-bottom:30px;
+  padding-top:20px;
+}
+/*pour que les éléments soit en face l'un de l'autre et changer la section droite pour que cela corresponde*/
+#format-gauche{
+  margin-bottom:37px;
+}
+/*modifier la page complète*/
+.page{
+  width:1080px;
+  margin:auto;
+  font-size:16px;
+  font-family:'Rubik', sans-serif;
+  padding: 40px;
+  border: 5px solid #EDEDED;
+  border-radius: 10px;
+  box-shadow: 2px 4px 3px black;
+  background-color:#FFF0F5;
+ }
+/*modifier notre image ou photo*/
+#photo{
+  display: inline-block;
+}
+/*pour que l'image soit dynamique*/
+img{ 
+    transform: rotate(270deg);
+    margin-left: 100px;
+    width: 230px; /* largeur de l'image */
+    height: 170px; /* hauteur de l'image */
+    transition: .3s ease-in-out;
+}
+img:hover {
+  width: 200px; /* on affiche l'image au carré */
+  height: 200px;
+  border-radius: 50%; 
+}
