@@ -1,0 +1,87 @@
+body{
+    background:#F5F5DC;
+
+}
+.banner{
+    background:url("https://s2.best-wallpaper.net/wallpaper/2560x1600/1212/A-cup-of-coffee-coffee-beans-placed-heart-shaped-pattern_2560x1600.jpg");
+    background-size:100%;
+    height:300px;
+}
+.jumbotron {
+    background:transparent;
+    color:white;
+    height:300px;
+    text-align: center;
+    h1{
+        font-weight: bolder;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px 3px black;
+    }
+    p.lead{
+        font-weight: bold;
+        letter-spacing:1px;
+        text-shadow: 2px 2px 3px black;
+    }
+    p{
+        font-weight:bold;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px 3px black;
+    }
+}
+.btn{
+    background:#DEB887;
+    border: 1px solid #DEB887;
+        &:hover{
+            background:#614B3A;
+            color:white;
+            border:1px solid #614B3A;
+        }
+
+}
+.nav{
+    ul.nav{
+        margin-left:5%;
+        margin-right:5%;
+        margin:auto;
+    li{
+        letter-spacing:1%;
+        margin-left:5%;
+        margin-right:5%;
+        a{
+            color:#462E01;
+            font-family: 'Satisfy', cursive;
+            font-size:35px;
+                &:hover{
+                    color:#E1CE9A;
+            }
+        }
+    }
+}
+}
+.container-fluide{
+    width:100%;
+
+}
+.main{
+    width:100%;
+    .menu{
+        p{
+            text-align: center;
+            margin-left:15%;
+        }
+        img{
+            height:50%;
+            opacity:0.2;
+        }
+}
+}
+
+footer{
+    p{
+        margin-top:10px;
+        text-align: center;
+    }
+    .fab{
+        padding-top:2%;
+    }
+}

@@ -1,0 +1,100 @@
+body {
+  background: #F5F5DC;
+}
+
+.banner {
+  background: url("https://s2.best-wallpaper.net/wallpaper/2560x1600/1212/A-cup-of-coffee-coffee-beans-placed-heart-shaped-pattern_2560x1600.jpg");
+  background-size: 100%;
+  height: 300px;
+}
+
+.jumbotron {
+  background: transparent;
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 3px black;
+}
+
+.jumbotron p.lead {
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 3px black;
+}
+
+.jumbotron p {
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 3px black;
+}
+
+.btn {
+  background: #DEB887;
+  border: 1px solid #DEB887;
+}
+
+.btn:hover {
+  background: #614B3A;
+  color: white;
+  border: 1px solid #614B3A;
+}
+
+.nav ul.nav {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin: auto;
+}
+
+.nav ul.nav li {
+  letter-spacing: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.nav ul.nav li a {
+  color: #462E01;
+  font-family: 'Satisfy', cursive;
+  font-size: 35px;
+}
+
+.nav ul.nav li a:hover {
+  color: #E1CE9A;
+}
+
+.main {
+  background: url("http://s1.1zoom.me/b5050/963/Texture_Boards_Wooden_478676_3840x2400.jpg") no-repeat;
+}
+
+.picture {
+  margin-top: 6%;
+  margin-left: 42%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.picture:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.pagination {
+  margin-left: 52%;
+  margin-top: 5%;
+}
+
+footer p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+footer .fab {
+  padding-top: 2%;
+}
+/*# sourceMappingURL=style-photo.css.map */
