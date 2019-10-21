@@ -1,0 +1,23 @@
+body {
+    background-color:black;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    position:absolute;
+}
+body .text img {
+    width:50%;
+    height:50%;
+    margin-left: 25%;
+    margin-top:-5px;
+}
+body .text p{
+    text-align: center;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-top:-5px;
+}
+
+body .text p a{
+    text-decoration: none;
+}
