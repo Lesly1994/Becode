@@ -1,0 +1,13 @@
+//challenge javascript 01 
+// juste utiliser une fonction native (array.reduce)
+
+function sumMix(x) {
+    somme = x.reduce ((a,b) => a + parseInt(b), 0)
+    //0 est la valeur initiale de a.
+    return somme
+}
+ // OU
+
+ let sumMix = x => x.reduce ((a,b)=> a + parseInt(b), 0)
+ // supprimer les parenthese de l'argument , justement parce qu'il n'y a que un seul argument .
+ // reduce = fonction parcourir tous le tableaux 
